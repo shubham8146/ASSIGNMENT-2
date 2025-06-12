@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Assignment second</title>
+    <style>
+        .heading {
+            color: rgb(6, 134, 92);
+            text-align: center;
+            text-shadow: 2px 2px;
+
+        }
+
+        .nam {
+            background-color: aquamarine;
+            color: black;
+        }
+
+        .do {
+            background-color: aquamarine;
+            text-shadow: 1px 1px 1px;
+        }
+
+        * {
+            margin: 2px;
+            padding: 2px;
+        }
+
+        .skill {
+            background-color: aquamarine;
+            text-shadow: 1px 1px 1px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="post">
+        <h1 class="heading"><i>Please Fill The Form for the SDE Role Requirement</i></h1>
+        <hr>
+        <div class="nam"><input type="text" id="username" name="username" placeholder="Enter your full-name">
+            <label for="username"> Please enter your full-name</label>
+            <br>
+            <br>
+            <input type="text" id="email-id" name="email-id" placeholder="Enter your email-id">
+            <label for="email-id"> Please enter your email-id</label>
+            <br>
+            <br>
+            <input type="text" id="State" name="State" placeholder="Enter your State">
+            <label for="State"> Please enter your State</label>
+            <br>
+            <br>
+            <input type="text" id="city" name="city" placeholder="Enter your city">
+            <label for="city"> Please enter your city</label>
+        </div>
+        <hr>
+        <div class="do">
+            <caption>Please Choose Your Date Of Birth</caption>
+            <br><br>
+
+            <input type="date" id="dateofbirth" name="D-O-B">
+
+        </div>
+        <br>
+        <hr>
+        <div class="skill">
+            <caption>Please Choose The Skills Which You Know </caption>
+            <br><br>
+            <input type="checkbox" id="languages" name="languages" value="yes">
+            <label for="languages">C++</label>
+            <input type="checkbox" id="languages" name="languages" value="yes">
+            <label for="languages">Java</label>
+            <input type="checkbox" id="languages" name="languages" value="yes">
+            <label for="languages">Java-Script</label>
+            <input type="checkbox" id="languages" name="languages" value="yes">
+            <label for="languages">Mern</label>
+            <input type="checkbox" id="languages" name="languages" value="yes">
+            <label for="languages">Python</label>
+        </div>
+        <hr>
+        <div class="skill">
+            <caption>Please Select Your State-Preferance</caption>
+            <br><br>
+            <input type="radio" id="state-preferance" name="state-preferance" value="yes">
+            <label for="state-preferance">NOIDA</label>
+            <BR>
+            <input type="radio" id="state-preferance" name="state-preferance" value="yes">
+            <label for="state-preferance">HYDERABAD</label>
+            <br>
+            <input type="radio" id="state-preferance" name="state-preferance" value="yes">
+            <label for="state-preferance">GURUGRAM</label>
+            <br>
+            <input type="radio" id="state-preferance" name="state-preferance" value="yes">
+            <label for="state-preferance">BANGLORE</label>
+            <br>
+        </div>
+
+        <hr>
+        <div class="skill">
+            <caption>Please Enter Your Experience</caption>
+            <br>
+            <br>
+            <select name="Experience">
+                <option value="0 to 2">(0 to 2)years</option>
+                <option value="3 to 5">(3 to 5)years</option>
+                <option value="0 to 2">(6 to 8) years</option>
+                <option value="0 to 2">(more then 9)years</option>
+            </select>
+        </div>
+        <hr>
+        <div class="skill">
+            <caption>Please Write Your Correct Moblie Number</caption>
+            <br><br>
+            <input type="tele" id="tel" name="telephone-number" pattern="[0-9]2[0-9]{5}[0-9]5"
+                placeholder="+91 81464-95014">
+        </div>
+        <div class="skill">
+            <label for="telephone-number"></label>
+            <hr>
+            <label for="feedback">Please Give Your Valueable Feedback</label>
+            <br><br>
+        </div>
+        <textarea name="Comment" id="feedback" rows="4" cols="50" placeholder="Please Give Feedback"></textarea>
+        <br>
+
+        <div>
+            <p style="background-color: aquamarine; text-shadow: 1px 1px;">Please Share Your Current Resume</p>
+            <input type="file" name="file" id="resume">
+            <label for="resume"></label>
+            <br>
+            <div class="skill">
+                <caption  >Please Also Share Your Public Link Of Your Resume</caption>
+            <input style="text-overflow: ellipsis;" type="url" name="link" id="link" placeholder="Resume Link">
+            </div>
+            <br>
+            <br>
+        </div><input type="submit">
+        <input style="float: right;" type="reset">
+        <br>
+         <input style="float: right;" type="search" placeholder="search here">
+         <br>
+    </form>
+    <br>
+    <div class="skill">
+        
+        <caption >Please Enter The Link For The Table </caption>
+    
+    </div>
+    <br>
+    <a href="http://127.0.0.1:3004/2..html">Table</a>
+
+</body>
+
+</html><br>
